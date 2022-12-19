@@ -1,0 +1,40 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ 
+/* slider section responsive start */
+#sliderHome {
+    padding: 0px 0;  
+    background: #f5f5f5;
+}
+/* slider section responsive end */
+
+
+/* category propduct section start */
+.productWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+} 
+ 
+
+/* category propduct section start */
+
+/* category img section start */
+ 
+.catImgGrid1 {
+ 
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+.catImg3{
+   grid-column: 1/3;
+}
+.catImgGrid2 {
+    grid-template-columns: 1fr 1fr;
+}
+/* category img section end */
+/* feature widget section start */
+.feature_widget {
+    padding-bottom: 30px !important;
+}
+/* feature widget section end */
+

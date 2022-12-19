@@ -1,0 +1,35 @@
+/* Medium devices (landscape tablets, 768px and up) */
+ 
+
+
+
+
+/* category product section start */
+.productBtn {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.productWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+/* category product section end */
+
+
+/* category img section start */
+ 
+.catImgGrid1 {
+ 
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.catImg3{
+   grid-column: unset;
+}
+.catImgGrid2 {
+    grid-template-columns: 1fr 1fr;
+}
+/* category img section end */

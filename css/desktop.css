@@ -1,0 +1,10 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ 
+
+/* category product section start */
+.productWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+/* category product section end */

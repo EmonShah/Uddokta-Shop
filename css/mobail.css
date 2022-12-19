@@ -1,0 +1,123 @@
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width:600px){} */
+ 
+  
+/* slider section responsive start */
+#sliderHome {
+    padding: 0 0;
+    background: transparent;
+}
+
+
+/* slider section responsive end */
+
+/* category product section start */
+.productBtn {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+
+.productWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+/* category product section end */
+
+
+/* featuer section start */
+.feature_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* feature widget section start */
+.feature_widget {
+    padding-bottom: 30px !important;
+}
+/* feature widget section end */
+
+/* category img section start */
+#category {
+    padding: 0px 0;
+   
+}
+.catImgGrid1 {
+ 
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr;
+}
+.catImgGrid2 {
+    grid-template-columns: 1fr 1fr;
+}
+/* category img section end */
+
+
+/* featuer section end */
+
+
+
+/* footer section start */
+.copyright {
+  margin-bottom: 70px;
+}
+/* footer section end */
+
+/* whatsapp button section start */
+.whatsappBtn{
+    bottom: 100px;
+}
+/* whatsapp button section end */
+
+/* footer mobail menu section start */
+#mobail-footer_menu {
+    overflow: hidden;
+	display: block;
+	background: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    z-index: 999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px 3px 6px 0px inset;
+
+}
+.mobail-menu_btn {
+	text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.mobail-menu_warp {
+     
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	column-gap: 2px;
+	align-items: center;
+     
+}
+.mobail-menu_btn a{
+    width: 100%;
+    padding-top: 10px;
+}
+.footer-menu-icon_btn {
+	width: 25px;
+	display: block;
+    margin: auto;
+    height: min-content;
+}
+.mobail-menu_btn span{
+    font-size: 12px;
+    font-family: var(--defultFont);
+    font-weight: 500;
+}
+
+
+/* footer mobail menu section end */
